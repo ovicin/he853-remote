@@ -13,18 +13,18 @@ the [HE853 Control Project](http://he853control.sourceforge.net/).
 ## Usage
 
 You can build the CLI programm by simply running
-
+```
   make
- 
+```
 You have to be root to execute the program.
 
-  ./he853 <deviceId> <command>
+```sudo ./he853 <deviceId> <command>```
 
 The command is either a *0* for *OFF* or anything > 0 for *ON*.
 To program the power socket you have to place the power socket into learning 
 mode and send the *ON* command to it:
 
-  ./he853 2001 1
+```sudo ./he853 2001 1```
 
 After that you can use the deviceId *2001* for toggling the power socket.
 
