@@ -1,5 +1,5 @@
 install: 
-- sudo apt-get --yes libusb-1.0-0-dev
+- sudo apt-get install --yes libusb-1.0-0-dev
 language: c
 compiler: gcc
 script: make
